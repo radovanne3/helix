@@ -29,6 +29,9 @@ C-d = [ "page_cursor_half_down","align_view_center"]
 # LSP
 K = ["hover"] # Vim lsp hover seems more convenient for now.
 
+# Rust Related config
+"," = { r = ":sh cargo run" } # Feature to have lang specific settings is not out yet...........
+
 [keys.normal.g]
 c = ["toggle_comments"] # vim`like commenting
 
